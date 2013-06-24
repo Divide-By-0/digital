@@ -8,7 +8,7 @@ void loop() {
   int sensorReading = analogRead(A0);
   int midPoint = 350;
   if (sensorReading > midPoint)
-  Serial.println("Everythings chill; Party on!");
+  Serial.println("Everythings chili; Party on!");
   }
   else
   {
